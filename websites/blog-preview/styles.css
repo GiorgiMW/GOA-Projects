@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    filter: drop-shadow(10px 10px 4px hsl(0, 0%, 7%));
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px 20px 20px;
+    background-color: hsl(0, 0%, 100%);
+}   
+
+.main img {
+    border-radius: 10px;
+}
+.body {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Greg {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.Greg img {
+    width: 30px;
+}
+.Greg p {
+    color: hsl(0, 0%, 7%);
+    font-weight: 700;
+    margin-left: 10px;
+}
+.Learning {
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 700;
+    width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+}
+.description {
+    color: hsl(0, 0%, 50%);
+}
+.foundations {
+    transition: 0.2s;
+}
+.foundations:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
