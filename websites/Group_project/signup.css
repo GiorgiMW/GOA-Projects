@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#30142b, #0015ff);
+
+}
+h1 {
+    color: rgb(45, 45, 45);
+}
+
+
+.main {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.main {
+    border-radius: 1px;
+    top: 15px;
+    font-size: 17px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(199, 199, 199, 0.648);
+    display: inline-block;
+    position: relative;
+    height: 600px;
+
+}
+input:required {
+    color: red;
+}
+.main span {
+    color: rgb(109, 109, 109);
+}
+
+.button1 {
+    font-weight: 500;
+    top: 20px;
+    position: relative;
+}
+
+.button1 img {
+    margin-bottom: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.button1 button {
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 149, 246);
+    border: 2px solid rgb(0, 149, 246);
+    border-radius: 8px;
+    padding: 7px 55px 3px 55px;
+}
+
+.button1 button:hover {
+    border-color: rgb(0, 107, 178);
+    background-color: rgb(0, 107, 178);
+}
+
+.image  {
+    margin: 30px 0px 20px 0px;
+    left: 45px;
+    position: relative;
+}
+
+.span2 {
+    margin-top: 10px;
+    padding: 0px 15px 0px 15px;
+    left: 138px;
+    background-color: transparent;
+    display: inline;
+    top: 230px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 450;
+}
+
+hr {
+    margin-top: 25px;
+    top: 10px;
+}
+.inputs {
+    right: 2px;
+    position: relative;
+    margin-top: 25px;
+}
+
+input {
+    outline: none;
+    text-decoration: none;
+    background-color: rgba(239, 239, 239, 0.355);
+    border-radius: 3px;
+    border: 1px solid;
+    border-color:rgb(215, 215, 215);
+    padding: 8px;
+    padding-right: 95px;
+    margin-bottom: 7px;
+}
+#btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.text {
+    color: rgb(87, 87, 87);
+    margin-top: 8px;
+    font-weight: 320;
+    font-size: 12px;
+}
+
+.text a {
+    text-decoration: none;
+    color: rgb(0, 0, 144);
+}
+
+.text2 {
+    color: rgb(87, 87, 87);
+    margin-top: 8px;
+    font-weight: 320;
+    font-size: 12px;
+}
+
+.text2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 144);
+}
+
+
+.button2 button {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(54, 174, 255);
+    border: 2px solid rgb(54, 174, 255);
+    border-radius: 8px;
+    padding: 4px 100px 4px 100px;
+    
+}
+
+.button2 {
+    font-weight: 500;
+    top: 20px;
+    position: relative;
+}
+
+.login span {
+    padding: 25px 80px 25px 80px;
+    border-radius: 1px;
+    border: 1px solid rgba(199, 199, 199, 0.648);
+    font-weight: 320;
+    top: 50px;
+    position: relative;
+}
+
+.login a {
+    color: rgb(0, 0, 144);
+    text-decoration: none;
+}
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#main2 {
+    display: none;
+
+}
